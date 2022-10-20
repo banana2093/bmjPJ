@@ -14,12 +14,12 @@ h1,h2,h3,h4,h5,h6{
 
 /* 임시표시 */
 .ibx h2,.ibx h1{
-    position: absolute;
     width: 100%;
     /* 부모는? .ibx */
     font-size: 5vw;
     text-align: center;
     z-index: -1;
+    /* position: absolute ; */
 }
 .cont h2{
     line-height: 100vh;
@@ -69,8 +69,10 @@ h1,h2,h3,h4,h5,h6{
 
 /* 컨텐츠 영역 공통 클래스 */
 .cont{
-    height: 100vh;
+    min-height: 100vh;
 }
+
+
 
 /************** 상단영역 **************/
 .top{
@@ -83,6 +85,6 @@ h1,h2,h3,h4,h5,h6{
 
 
 /*******************메인화면 ********************/
-.ct1>.cbx{
-    background-image: url();
+.ct1 :first-child{
+    background-image: url(../img/main.PNG) ;
 }
