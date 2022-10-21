@@ -82,7 +82,7 @@ h6 {
   /* 크기가 넘치면 아래로 내려감 */
   flex-wrap: wrap;
 
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: 0 auto;
   outline: 1px dashed gray;
   /* 임시높이 */
@@ -111,16 +111,20 @@ h6 {
 
 /*******************메인화면 ********************/
 
-.ct1 .cbx1 {
+.ct1 :first-child {
   background: url(../img/main.PNG) no-repeat center/cover;
+  height: 575px;
+}
+.ct1 :nth-child(2) {
+  background: linear-gradient( rgb(98,226,232), rgb(106,238,228));
+  height: 100px;
+}
+.ct1 :nth-child(3) {
+  background: url(../img/mainfarm.PNG) no-repeat center/cover;
+  height: 608px;
 }
 
-.ct1 .cbx2 {
-  min-height: 300hv;
-}
-
-.ct1 > .cbx2 > .fmi {
-  position: absolute;
-  bottom: 0;
-  background: url(../img/mainfarm.PNG) no-repeat center;
+.mtxt{
+  font-size: 20px;
+  color: white;
 }
