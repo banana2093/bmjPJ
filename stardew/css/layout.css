@@ -101,8 +101,32 @@ h6 {
 
 /************** 상단영역 **************/
 .top {
-  height: 40px;
-  background-color: rgb(29, 63, 128);
+  height: 50px;
+  background-color: rgb(29, 64, 128);
+}
+
+.mtxt{
+  display: flex;
+  justify-content: flex-end;
+  font: 15px bold;
+  line-height: 50px;
+  margin-left: 230px;
+}
+
+.mtxt li a{
+  color: white;
+  padding: 0 20px;
+}
+
+.icon a{
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  /* 아이콘 홈페이지:
+  https://fontawesome.com/icons/twitter?s=&f=brands */
 }
 /************** 하단영역 **************/
 .info {
@@ -124,15 +148,4 @@ h6 {
   height: 608px;
 }
 
-.mtxt{
-  display: flex;
-  justify-content: flex-end;
-  font-size: 20px;
-  line-height: 35px;
-  margin-left: 100px;
-}
 
-.mtxt li a{
-  color: white;
-  padding: 0 30px;
-}
