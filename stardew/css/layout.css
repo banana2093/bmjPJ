@@ -26,7 +26,6 @@ h6 {
   font-size: 5vw;
   text-align: center;
   z-index: -1;
-  /* position: absolute ; */
 }
 .cont h2 {
   line-height: 100vh;
@@ -153,30 +152,46 @@ h6 {
 }
 
 /***************** 스토리 영역 ********************/
-.ct2 :first-child{
+.ct2 .cbx1{
 background-color: black;
 height: 100vh;
 }
 
-.ct2 :nth-child(2){
+.ct2 .cbx2{
   background: url(../img/story1.jpg) no-repeat center/cover;
   height: 120vh;
 }
 
-.ct2 :nth-child(3){
+.ct2 .cbx3{
   background-color: black;
   height: 100vh;
 }
 
-.ct2 :nth-child(4){
+.ct2 .cbx4{
   background: url(../img/story2.jpg) no-repeat center/cover;
   height: 120vh;
+  position: relative ;
 }
 
 
-.ct2:nth-child(3) p{
+.ct2 .cbx3 p{
   color: #fff;
 padding: 50vh;
  text-align: center;
 font-size: 25px;
+}
+
+.ct2 .cbx4 .sxt1{
+  color: #fff;
+  position: absolute;
+}
+.ct2 .cbx4 .sxt2{
+  background: url(../img/letter.PNG) no-repeat center/cover;
+  position: absolute;
+  width: 172px;
+  height: 84px;
+}
+.ct2 .cbx4 .sxt3{
+  color: #fff;
+  position: absolute;
 }
