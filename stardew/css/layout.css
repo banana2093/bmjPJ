@@ -108,20 +108,29 @@ h6 {
 .mtxt{
   display: flex;
   justify-content: flex-end;
-  font: 15px bold;
+  font: 18px bold;
   line-height: 50px;
-  margin-left: 230px;
+  margin-left: 400px;
+  margin-right: -240px;
 }
 
 .mtxt li a{
   color: white;
-  padding: 0 20px;
+  padding: 0 23px;
+}
+
+.ialt{
+  width: 0;
+  height:0;
+  overflow: hidden;
+  display: block;
 }
 
 .icon a{
+  display: block;
   width: 35px;
   height: 35px;
-  font-size: 17px;
+  font-size: 22px;
   margin-top: 15px;
   text-align: center;
   color: white;
