@@ -72,29 +72,24 @@ h6 {
   width: 100%;
 }
 
-/* 속박스 셋팅 */
-.ibx {
-  /* 렐러티브 부모자격 */
-  position: relative;
 
-  /* 플렉스박스 */
+.ibx {
+  position: relative;
   display: flex;
-  /* 크기가 넘치면 아래로 내려감 */
   flex-wrap: wrap;
 
-  /* max-width: 1400px; */
+
   margin: 0 auto;
   outline: 1px dashed gray;
-  /* 임시높이 */
-  /* min-height: 100px; */
+
 }
 
-/* 파티션 박스 */
+
 .cbx {
   outline: 1px dotted red;
 }
 
-/* 컨텐츠 영역 공통 클래스 */
+
 .cont {
   min-height: 100vh;
 }
@@ -111,7 +106,7 @@ h6 {
   font: 18px bold;
   line-height: 50px;
   margin-left: 400px;
-  margin-right: -240px;
+  margin-right: -300px;
 }
 
 .mtxt li a{
@@ -157,4 +152,31 @@ h6 {
   height: 608px;
 }
 
+/***************** 스토리 영역 ********************/
+.ct2 :first-child{
+background-color: black;
+height: 100vh;
+}
 
+.ct2 :nth-child(2){
+  background: url(../img/story1.jpg) no-repeat center/cover;
+  height: 120vh;
+}
+
+.ct2 :nth-child(3){
+  background-color: black;
+  height: 100vh;
+}
+
+.ct2 :nth-child(4){
+  background: url(../img/story2.jpg) no-repeat center/cover;
+  height: 120vh;
+}
+
+
+.ct2:nth-child(3) p{
+  color: #fff;
+padding: 50vh;
+ text-align: center;
+font-size: 25px;
+}
