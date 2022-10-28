@@ -1,12 +1,7 @@
 @charset "uft-8";
+/* 초기화 CSS - reset.css */
 
-/* 초기화 */
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-/* 헤딩태그 */
+
 h1,
 h2,
 h3,
@@ -71,35 +66,30 @@ h6 {
   width: 100%;
 }
 
-
 .ibx {
   position: relative;
   display: flex;
   flex-wrap: wrap;
 
-
   margin: 0 auto;
-  outline: 1px dashed gray;
-
+  /* outline: 1px dashed gray; */
 }
-
 
 .cbx {
   outline: 1px dotted red;
 }
 
-
 .cont {
   min-height: 100vh;
 }
 
-/************** 상단영역 **************/
+/************** 상단영역 메뉴 **************/
 .top {
   height: 50px;
   background-color: rgb(29, 64, 128);
 }
 
-.mtxt{
+.mtxt {
   display: flex;
   justify-content: flex-end;
   font: 18px bold;
@@ -108,19 +98,19 @@ h6 {
   margin-right: -300px;
 }
 
-.mtxt li a{
+.mtxt li a {
   color: white;
   padding: 0 23px;
 }
 
-.ialt{
+.ialt {
   width: 0;
-  height:0;
+  height: 0;
   overflow: hidden;
   display: block;
 }
 
-.icon a{
+.icon a {
   display: block;
   width: 35px;
   height: 35px;
@@ -131,19 +121,19 @@ h6 {
   /* 아이콘 홈페이지:
   https://fontawesome.com/icons/twitter?s=&f=brands */
 }
-/************** 하단영역 **************/
+/************** 하단영역 *************/
 .info {
   height: 500px;
 }
 
-/*******************메인화면 ********************/
+/******************* 상단영역 **********************/
 
 .ct1 :first-child {
   background: url(../img/main.PNG) no-repeat center/cover;
   height: 575px;
 }
 .ct1 :nth-child(2) {
-  background: linear-gradient( rgb(98,226,232), rgb(106,238,228));
+  background: linear-gradient(rgb(98, 226, 232), rgb(106, 238, 228));
   height: 100px;
 }
 .ct1 :nth-child(3) {
@@ -151,47 +141,79 @@ h6 {
   height: 608px;
 }
 
-/***************** 스토리 영역 ********************/
-.ct2 .cbx1{
-background-color: black;
-height: 100vh;
-}
-
-.ct2 .cbx2{
-  background: url(../img/story1.jpg) no-repeat center/cover;
-  height: 120vh;
-}
-
-.ct2 .cbx3{
+/*************** 메인영역1-스토리 ******************/
+.ct2 .cbx1 {
   background-color: black;
   height: 100vh;
 }
 
-.ct2 .cbx4{
+.ct2 .cbx2 {
+  background: url(../img/story1.jpg) no-repeat center/cover;
+  height: 120vh;
+}
+
+.ct2 .cbx3 {
+  background-color: black;
+  height: 100vh;
+}
+
+.ct2 .cbx4 {
   background: url(../img/story2.jpg) no-repeat center/cover;
   height: 120vh;
-  position: relative ;
+  position: relative;
 }
 
-
-.ct2 .cbx3 p{
+.ct2 .cbx3 p {
   color: #fff;
-padding: 50vh;
- text-align: center;
-font-size: 25px;
+  padding: 50vh;
+  text-align: center;
+  font-size: 25px;
 }
 
-.ct2 .cbx4 .sxt1{
+.ct2 .cbx4 .sxt1 {
   color: #fff;
   position: absolute;
 }
-.ct2 .cbx4 .sxt2{
+/* 편지 이미지 터치시
+앞으로 나오며 커지고 편지내용 나옴 */
+.ct2 .cbx4 .sxt2 {
   background: url(../img/letter.PNG) no-repeat center/cover;
   position: absolute;
-  width: 172px;
-  height: 84px;
+  width: 121px;
+  height: 59px;
+  top: 513px;
+  right: 928px;
 }
-.ct2 .cbx4 .sxt3{
+.ct2 .cbx4 .sxt3 {
   color: #fff;
   position: absolute;
+  top: 705px;
+  left: 1066px;
+  width: 299px;
+  font-size: 20px;
+  text-shadow: 2px 2px 8px #000;
+}
+.ct2 .cbx4 .sxt1 {
+  color: #fff;
+  position: absolute;
+  top: 634px;
+  left: 411px;
+  width: 436px;
+  font-size: 23px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+
+
+/****************** 메인영역2-농사 ******************/
+
+/* 중간그라데이션 */
+.grd1{
+  background: linear-gradient(#000000, #ffe8ad);
+  height: 900px;
+}
+
+/* 배경색 */
+.ct5{
+  background-color: #ffe8ad;
 }
