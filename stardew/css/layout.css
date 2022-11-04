@@ -12,11 +12,11 @@ h6 {
   font-size: 30px;
 }
 
-/* 임시표시 */
+
 .ibx h2,
 .ibx h1 {
   width: 100%;
-  /* 부모는? .ibx */
+  /* 부모 .ibx */
   font-size: 5vw;
   text-align: center;
   z-index: -1;
@@ -25,9 +25,6 @@ h6 {
   line-height: 100vh;
 }
 
-/* 공통 파티션 12그리드 클래스 */
-/* col-숫자 : 숫자는 기둥의 수
-한줄에는 최대한이 12기둥이 되어야함! */
 .col-1 {
   width: 8.33%;
 }
@@ -90,11 +87,13 @@ h6 {
 
 .mtxt {
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   font: 18px bold;
   line-height: 50px;
-  margin-left: 400px;
-  margin-right: -300px;
+  margin: 0 -250px 0 400px;
+  text-align: center;
+  /* margin-left: 400px;
+  margin-right: -300px; */
 }
 
 .mtxt li a {
@@ -110,16 +109,29 @@ h6 {
 }
 
 .icon a {
-  display: block;
   width: 35px;
   height: 35px;
   font-size: 22px;
   margin-top: 15px;
-  text-align: center;
   color: white;
   /* 아이콘 홈페이지:
   https://fontawesome.com/icons/twitter?s=&f=brands */
 }
+
+.icon a[class$=twitter]:hover{
+  color: rgb(235, 235, 103);
+}
+.icon a[class$=facebook-f]:hover{
+  color: rgb(235, 235, 103);
+}
+.icon a[class$=reddit]:hover{
+  color: rgb(235, 235, 103);
+}
+.icon a[class$=envelope]:hover{
+  color: rgb(235, 235, 103);
+}
+
+
 /************** 하단영역 *************/
 .info {
   height: 500px;
@@ -138,6 +150,14 @@ h6 {
 .ct1 :nth-child(3) {
   background: url(../img/mainfarm.PNG) no-repeat center/cover;
   height: 608px;
+}
+
+.ibx .mtxt .tma {
+  color: rgb(235, 235, 103);
+  
+}
+.ibx .mtxt a:hover {
+  color: rgb(235, 235, 103);
 }
 
 /*************** 메인영역1-스토리 ******************/
@@ -255,4 +275,7 @@ h6 {
 .ct5 .p3{
   font-size: 16px;
   position: absolute;
+  top: 300px;
+  left: 898px;
+  justify-content: center;
 }
