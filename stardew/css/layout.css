@@ -7,285 +7,305 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  padding: 0;
-  font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
 }
-
 
 .ibx h2,
 .ibx h1 {
-  width: 100%;
-  /* 부모 .ibx */
-  font-size: 5vw;
-  text-align: center;
-  z-index: -1;
+    width: 100%;
+    /* 부모 .ibx */
+    font-size: 5vw;
+    text-align: center;
+    z-index: -1;
 }
 .cont h2 {
-  line-height: 100vh;
+    line-height: 100vh;
 }
 
 .col-1 {
-  width: 8.33%;
+    width: 8.33%;
 }
 .col-2 {
-  width: 16.66%;
+    width: 16.66%;
 }
 .col-3 {
-  width: 25%;
+    width: 25%;
 }
 .col-4 {
-  width: 33.33%;
+    width: 33.33%;
 }
 .col-5 {
-  width: 41.66%;
+    width: 41.66%;
 }
 .col-6 {
-  width: 50%;
+    width: 50%;
 }
 .col-7 {
-  width: 58.33%;
+    width: 58.33%;
 }
 .col-8 {
-  width: 66.66%;
+    width: 66.66%;
 }
 .col-9 {
-  width: 75%;
+    width: 75%;
 }
 .col-10 {
-  width: 83.33%;
+    width: 83.33%;
 }
 .col-11 {
-  width: 91.66%;
+    width: 91.66%;
 }
 .col-12 {
-  width: 100%;
+    width: 100%;
 }
 
 .ibx {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 
-  margin: 0 auto;
-  /* outline: 1px dashed gray; */
+    margin: 0 auto;
+    /* outline: 1px dashed gray; */
 }
 
 .cbx {
-  outline: 1px dotted red;
+    outline: 1px dotted red;
 }
 
 .cont {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 /************** 상단영역 메뉴 **************/
 .top {
-  height: 50px;
-  background-color: rgb(29, 64, 128);
+    height: 50px;
+    background-color: rgb(29, 64, 128);
 }
 
 .mtxt {
-  display: flex;
-  /* justify-content: flex-end; */
-  font: 18px bold;
-  line-height: 50px;
-  margin: 0 -250px 0 400px;
-  text-align: center;
-  /* margin-left: 400px;
+    display: flex;
+    /* justify-content: flex-end; */
+    font: 18px bold;
+    line-height: 50px;
+    margin: 0 -250px 0 400px;
+    text-align: center;
+    /* margin-left: 400px;
   margin-right: -300px; */
 }
 
 .mtxt li a {
-  color: white;
-  padding: 0 23px;
+    color: white;
+    padding: 0 23px;
 }
 
 .ialt {
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
 }
 
 .icon a {
-  width: 35px;
-  height: 35px;
-  font-size: 22px;
-  margin-top: 15px;
-  color: white;
-  /* 아이콘 홈페이지:
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    margin-top: 15px;
+    color: white;
+    /* 아이콘 홈페이지:
   https://fontawesome.com/icons/twitter?s=&f=brands */
 }
 
-.icon a[class$=twitter]:hover{
-  color: rgb(235, 235, 103);
+.icon a[class$="twitter"]:hover {
+    color: rgb(235, 235, 103);
 }
-.icon a[class$=facebook-f]:hover{
-  color: rgb(235, 235, 103);
+.icon a[class$="facebook-f"]:hover {
+    color: rgb(235, 235, 103);
 }
-.icon a[class$=reddit]:hover{
-  color: rgb(235, 235, 103);
+.icon a[class$="reddit"]:hover {
+    color: rgb(235, 235, 103);
 }
-.icon a[class$=envelope]:hover{
-  color: rgb(235, 235, 103);
+.icon a[class$="envelope"]:hover {
+    color: rgb(235, 235, 103);
 }
-
 
 /************** 하단영역 *************/
 .info {
-  height: 500px;
+    height: 500px;
 }
 
 /******************* 상단영역 **********************/
 
 .ct1 :first-child {
-  background: url(../img/main.PNG) no-repeat center/cover;
-  height: 575px;
+    background: url(../img/main.PNG) no-repeat center/cover;
+    height: 575px;
 }
 .ct1 :nth-child(2) {
-  background: linear-gradient(rgb(98, 226, 232), rgb(106, 238, 228));
-  height: 100px;
+    background: linear-gradient(rgb(98, 226, 232), rgb(106, 238, 228));
+    height: 100px;
 }
 .ct1 :nth-child(3) {
-  background: url(../img/mainfarm.PNG) no-repeat center/cover;
-  height: 608px;
+    background: url(../img/mainfarm.PNG) no-repeat center/cover;
+    height: 608px;
 }
 
 .ibx .mtxt .tma {
-  color: rgb(235, 235, 103);
-  
+    color: rgb(235, 235, 103);
 }
 .ibx .mtxt a:hover {
-  color: rgb(235, 235, 103);
+    color: rgb(235, 235, 103);
 }
 
 /*************** 메인영역1-스토리 ******************/
 .ct2 .cbx1 {
-  background-color: black;
-  height: 100vh;
+    background-color: black;
+    height: 100vh;
 }
 
 .ct2 .cbx2 {
-  background: url(../img/story1.jpg) no-repeat center/cover;
-  height: 120vh;
+    background: url(../img/story1.jpg) no-repeat center/cover;
+    height: 120vh;
 }
 
 .ct2 .cbx3 {
-  background-color: black;
-  height: 100vh;
+    background-color: black;
+    height: 100vh;
 }
 
 .ct2 .cbx4 {
-  background: url(../img/story2.jpg) no-repeat center/cover;
-  height: 120vh;
-  position: relative;
+    background: url(../img/story2.jpg) no-repeat center/cover;
+    height: 120vh;
+    position: relative;
 }
 
 .ct2 .cbx3 p {
-  color: #fff;
-  padding: 50vh;
-  text-align: center;
-  font-size: 25px;
+    color: #fff;
+    padding: 50vh;
+    text-align: center;
+    font-size: 25px;
 }
 
 .ct2 .cbx4 .sxt1 {
-  color: #fff;
-  position: absolute;
+    color: #fff;
+    position: absolute;
 }
 /* 편지 이미지 터치시
 앞으로 나오며 커지고 편지내용 나옴 */
 .ct2 .cbx4 .sxt2 {
-  background: url(../img/letter.PNG) no-repeat center/cover;
-  position: absolute;
-  width: 121px;
-  height: 59px;
-  top: 513px;
-  right: 928px;
+    background: url(../img/letter.PNG) no-repeat center/cover;
+    position: absolute;
+    width: 121px;
+    height: 59px;
+    top: 513px;
+    right: 928px;
 }
 .ct2 .cbx4 .sxt3 {
-  color: #fff;
-  position: absolute;
-  top: 705px;
-  left: 1066px;
-  width: 299px;
-  font-size: 20px;
-  text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    position: absolute;
+    top: 705px;
+    left: 1066px;
+    width: 299px;
+    font-size: 20px;
+    text-shadow: 2px 2px 8px #000;
 }
 .ct2 .cbx4 .sxt1 {
-  color: #fff;
-  position: absolute;
-  top: 634px;
-  left: 411px;
-  width: 436px;
-  font-size: 23px;
-  text-shadow: 2px 2px 8px #000;
+    color: #fff;
+    position: absolute;
+    top: 634px;
+    left: 411px;
+    width: 436px;
+    font-size: 23px;
+    text-shadow: 2px 2px 8px #000;
 }
 
 /****************** 메인영역2-농사 ******************/
 
 /* 중간그라데이션 */
 .grd1 {
-  background: linear-gradient(#000000, #ffe8ad);
-  height: 900px;
+    background: linear-gradient(#000000, #ffe8ad);
+    height: 900px;
 }
 
 /* 배경색 */
 .ct5 {
-  position: relative;
-  background-color: #ffe8ad;
+    position: relative;
+    background-color: #ffe8ad;
 }
 .ct5 .duck {
-  position: absolute;
-  width: 50px;
-  height: 47px;
-  background: url(/stardew/img/duck.png) no-repeat center/cover;
-  top: 155px;
-  left: 757px;
+    position: absolute;
+    width: 50px;
+    height: 47px;
+    background: url(/stardew/img/duck.png) no-repeat center/cover;
+    top: 155px;
+    left: 757px;
 }
 .ct5 .cow {
-  position: absolute;
-  width: 135px;
-  height: 104px;
-  background: url(/stardew/img/cow.png) no-repeat center/cover;
-  top: 483px;
-  left: 1474px;
-  z-index: 999;
+    position: absolute;
+    width: 135px;
+    height: 104px;
+    background: url(/stardew/img/cow.png) no-repeat center/cover;
+    top: 483px;
+    left: 1474px;
+    z-index: 999;
 }
 .ct5 .farm {
-  position: absolute;
-  width: 690px;
-  height: 382px;
-  background: url(/stardew/img/farm1.jpg) no-repeat center/cover;
-  top: 222px;
-  left: 179px;
+    position: absolute;
+    width: 690px;
+    height: 382px;
+    background: url(/stardew/img/farm1.jpg) no-repeat center/cover;
+    top: 222px;
+    left: 179px;
 }
 
 .ct5 .p1 {
-  position: absolute;
-  font-size: 80px;
-  top: 100px;
-  left: 131px;
+    position: absolute;
+    font-size: 80px;
+    top: 100px;
+    left: 131px;
 }
 .ct5 .p2 {
-  position: absolute;
-  font-size: 30px;
-  top: 228px;
-  left: 895px;
+    position: absolute;
+    font-size: 30px;
+    top: 228px;
+    left: 895px;
 }
-.ct5 .p3{
-  font-size: 20px;
-  position: absolute;
-  top: 345px;
-  left: 898px;
-  justify-content: center;
+.ct5 .p3 {
+    font-size: 20px;
+    position: absolute;
+    top: 345px;
+    left: 898px;
+    justify-content: center;
 }
 
-.seed{
-  position: absolute;
-  background-color: aquamarine;
-  height: 206px;
-  width: 1448px;
-  top: 670px;
-  left: 177px;
+.seed {
+    position: absolute;
+    background-color: aquamarine;
+    height: 206px;
+    width: 1448px;
+    top: 670px;
+    left: 177px;
+    position: relative;
 }
+
+.cbx1 .seed .sed {
+  position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 10%;
+    display: flex;
+    
+  }
+  
+  .cbx1 .seed .sd1{
+    background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
+  }
+  .cbx1 .seed .sd1{
+    background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
+  }
+  .cbx1 .seed .sd1{
+    background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
+  }
+  .cbx1 .seed .sd1{
+    background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
+  }
