@@ -245,11 +245,12 @@ h6 {
 }
 .ct5 .cow {
   position: absolute;
-  width: 90px;
-  height: 69px;
+  width: 135px;
+  height: 104px;
   background: url(/stardew/img/cow.png) no-repeat center/cover;
-  top: 150px;
-  left: 150px;
+  top: 483px;
+  left: 1474px;
+  z-index: 999;
 }
 .ct5 .farm {
   position: absolute;
@@ -280,3 +281,11 @@ h6 {
   justify-content: center;
 }
 
+.seed{
+  position: absolute;
+  background-color: aquamarine;
+  height: 206px;
+  width: 1448px;
+  top: 670px;
+  left: 177px;
+}
