@@ -292,20 +292,36 @@ h6 {
   position: absolute;
     height: 150px;
     width: 150px;
-    top: 10%;
+    top: 10%;   
+    margin: 10px;
+  }
+
+  .cbx1 .seed{
     display: flex;
-    
+    justify-content: space-evenly;
   }
   
   .cbx1 .seed .sd1{
     background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
   }
-  .cbx1 .seed .sd1{
-    background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
+  .cbx1 .seed .sd2{
+    background: url(../img/Corn_Seeds.png) no-repeat center/cover;
   }
-  .cbx1 .seed .sd1{
-    background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
+  .cbx1 .seed .sd3{
+    background: url(../img/Cauliflower_Seeds.png) no-repeat center/cover;
   }
-  .cbx1 .seed .sd1{
-    background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
+  .cbx1 .seed .sd4{
+    background: url(../img/Melon_Seeds.png) no-repeat center/cover;
+  }
+  .cbx1 .seed .sd5{
+    background: url(../img/Parsnip_Seeds.png) no-repeat center/cover;
+  }
+  .cbx1 .seed .sd6{
+    background: url(../img/Pumpkin_Seeds.png) no-repeat center/cover;
+  }
+  .cbx1 .seed .sd7{
+    background: url(../img/Starfruit_Seeds.png) no-repeat center/cover;
+  }
+  .cbx1 .seed .sd8{
+    background: url(../img/Garlic_Seeds.png) no-repeat center/cover;
   }
