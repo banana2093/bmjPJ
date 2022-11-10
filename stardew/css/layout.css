@@ -288,40 +288,51 @@ h6 {
     position: relative;
 }
 
-.cbx1 .seed .sed {
-  position: absolute;
+.seed > .sed {
     height: 150px;
     width: 150px;
-    top: 10%;   
-    margin: 10px;
-  }
+    top: 10%;
 
-  .cbx1 .seed{
+}
+
+.seed {
+    position: absolute;
     display: flex;
     justify-content: space-evenly;
-  }
-  
-  .cbx1 .seed .sd1{
+    align-items: center;
+}
+
+.seed .sd1 {
     background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
-  }
-  .cbx1 .seed .sd2{
+}
+.cbx1 .seed .sd2 {
     background: url(../img/Corn_Seeds.png) no-repeat center/cover;
-  }
-  .cbx1 .seed .sd3{
+}
+.cbx1 .seed .sd3 {
     background: url(../img/Cauliflower_Seeds.png) no-repeat center/cover;
-  }
-  .cbx1 .seed .sd4{
+}
+.cbx1 .seed .sd4 {
     background: url(../img/Melon_Seeds.png) no-repeat center/cover;
-  }
-  .cbx1 .seed .sd5{
+}
+.cbx1 .seed .sd5 {
     background: url(../img/Parsnip_Seeds.png) no-repeat center/cover;
-  }
-  .cbx1 .seed .sd6{
+}
+.cbx1 .seed .sd6 {
     background: url(../img/Pumpkin_Seeds.png) no-repeat center/cover;
-  }
-  .cbx1 .seed .sd7{
+}
+.cbx1 .seed .sd7 {
     background: url(../img/Starfruit_Seeds.png) no-repeat center/cover;
-  }
-  .cbx1 .seed .sd8{
+}
+.cbx1 .seed .sd8 {
     background: url(../img/Garlic_Seeds.png) no-repeat center/cover;
-  }
+}
+
+
+/****************** 메인영역3- 광산 ******************/
+.grd2{
+    background: linear-gradient( #ffe8ad, #000000);
+    height: 900px;
+}
+.ct7{
+    background: #000;
+}
