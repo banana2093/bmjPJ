@@ -336,3 +336,14 @@ h6 {
 .ct7{
     background: #000;
 }
+
+
+/********************* 하단영역 *************************/
+.grd4{
+    background: linear-gradient( #ffe8ad, #baedff);
+    height: 900px;
+}
+
+.footer .ibx{
+    background:#baedff ;
+}
