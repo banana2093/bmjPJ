@@ -246,7 +246,7 @@ h6 {
     position: absolute;
     width: 60px;
     height: 57px;
-    background: url(../stardew/img/duck.png) no-repeat center/cover;
+    background: url(../img/duck.png) no-repeat center/cover;
     top: 200px;
     right: 336px;
 }
@@ -254,7 +254,7 @@ h6 {
     position: absolute;
     width: 135px;
     height: 104px;
-    background: url(../stardew/img/cow.png) no-repeat center/cover;
+    background: url(../img/cow.png) no-repeat center/cover;
     bottom: 33px;
     right: 91px;
     z-index: 999;
@@ -263,7 +263,7 @@ h6 {
     /* position: absolute; */
     width: 100%;
     height: 430px;
-    background: url(../stardew/img/farm1.jpg) no-repeat center/cover;
+    background: url(../img/farm1.jpg) no-repeat center/cover;
     top: 222px;
     left: 179px;
 }
