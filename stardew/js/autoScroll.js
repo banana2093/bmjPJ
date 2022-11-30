@@ -4,11 +4,11 @@
 // 1. 현재 페이지 번호
 let pno = 0;
 // 2. 전체 페이지수
-let totnum = 7;
+let totnum = 10;
 // 3. 광스크롤 상태변수
 let prot_sc = 0; //0-허용,1-불허용
 // 4. 스크롤 애니메이션 시간
-const dur_sc = 1200;
+const dur_sc = 1000;
 // 광스크롤 금지시간 === 스크롤 애니메이션 시간
 // 5. 스크롤 이징
 const easing_sc = "easeOutQuint";
@@ -114,17 +114,19 @@ $(() => { //////////////// jQB /////////////////////////
             // 한계수에서 끝번호 고정
             if (pno === totnum) pno = totnum - 1;
             // 3페이지 지나감
-            if(pno===2) pno += 1;
+            if(pno===3) pno += 1;
         }
+     
 
         // 양수면 윗방향 : 이전페이지
         else {
-            pno--;
+         pno--;
             // 한계수에서 끝번호 고정
             if (pno === -1) pno = 0;
             // 3페이지 지나감
-            if(pno===2) pno -= 1;
+            if(pno===3) pno -= 1;
         }
+      
 
         
 

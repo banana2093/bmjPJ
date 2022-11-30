@@ -24,9 +24,10 @@ h6 {
     line-height: 100vh;
 }
 
-[class*="col-"]{
+[class*="col-"] {
     box-sizing: border-box;
-    padding: min(30px,2vw);
+    padding: min(30px, 2vw);
+    padding-top: 150px;
 }
 
 .col-1 {
@@ -83,13 +84,13 @@ h6 {
     min-height: 100vh;
 }
 
-.page{
+.page {
     height: 100vh;
     overflow: hidden;
 }
 
 /************** 상단영역 메뉴 **************/
-#top{
+#top {
     position: fixed;
     width: 100%;
     top: 0;
@@ -100,7 +101,7 @@ h6 {
     height: 50px;
     background-color: rgb(29, 64, 128);
 }
-.mbar{
+.mbar {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -124,7 +125,7 @@ h6 {
     overflow: hidden;
     display: block;
 }
-.icon{
+.icon {
     display: flex;
 }
 .icon a {
@@ -181,63 +182,48 @@ h6 {
 .ct2 .cbx1 {
     background-color: black;
     height: 100vh;
-}
-
-.ct2 .cbx2 {
-    background: url(../img/story1.jpg) no-repeat center/cover;
-    height: 120vh;
-}
-
-.ct2 .cbx3 {
-    background-color: black;
-    height: 100vh;
-}
-
-.ct2 .cbx4 {
-    background: url(../img/story2.jpg) no-repeat center/cover;
-    height: 120vh;
-    position: relative;
-}
-
-.ct2 .cbx3 p {
+    color: #ccc;
     color: #fff;
     padding: 50vh;
     text-align: center;
     font-size: 25px;
 }
 
-.ct2 .cbx4 .sxt1 {
-    color: #fff;
-    position: absolute;
+.ct2 .cbx2 {
+    background: url(../img/story2.jpg) no-repeat center/cover;
+    position: relative;
 }
+
 /* 편지 이미지 터치시
 앞으로 나오며 커지고 편지내용 나옴 */
-.ct2 .cbx4 .sxt2 {
+
+.cbx2 .sxt1 {
+    color: #fff;
+    position: absolute;
+    top: 578px;
+    left: 1066px;
+    font-size: 25px;
+    text-shadow: 2px 2px 8px #000;
+    left: 181px;
+}
+.cbx2 .sxt2 {
+    color: #fff;
+    position: absolute;
+    top: 693px;
+    left: 1249px;
+    width: 299px;
+    font-size: 22px;
+    text-shadow: 2px 2px 8px #000;
+}
+.cbx2 .sxt3 {
     background: url(../img/letter.PNG) no-repeat center/cover;
     position: absolute;
     width: 121px;
     height: 59px;
-    top: 513px;
-    right: 928px;
+    top: 441px;
+    right: 885px;
 }
-.ct2 .cbx4 .sxt3 {
-    color: #fff;
-    position: absolute;
-    top: 705px;
-    left: 1066px;
-    width: 299px;
-    font-size: 20px;
-    text-shadow: 2px 2px 8px #000;
-}
-.ct2 .cbx4 .sxt1 {
-    color: #fff;
-    position: absolute;
-    top: 634px;
-    left: 411px;
-    width: 436px;
-    font-size: 23px;
-    text-shadow: 2px 2px 8px #000;
-}
+
 
 /****************** 메인영역2-농사 ******************/
 
@@ -248,7 +234,7 @@ h6 {
 }
 
 /* 배경색 */
-.cbx1{
+.cbx1 {
     position: relative;
     /* 부모자격 */
 }
@@ -258,25 +244,25 @@ h6 {
 }
 .ct5 .duck {
     position: absolute;
-    width: 50px;
-    height: 47px;
+    width: 60px;
+    height: 57px;
     background: url(/stardew/img/duck.png) no-repeat center/cover;
-    top: 64px;
-    right: 48px;
+    top: 200px;
+    right: 336px;
 }
 .ct5 .cow {
     position: absolute;
     width: 135px;
     height: 104px;
     background: url(/stardew/img/cow.png) no-repeat center/cover;
-    bottom: 254px;
-    right: 98px;
+    bottom: 33px;
+    right: 91px;
     z-index: 999;
 }
 .ct5 .farm {
     /* position: absolute; */
     width: 100%;
-    height: 382px;
+    height: 430px;
     background: url(/stardew/img/farm1.jpg) no-repeat center/cover;
     top: 222px;
     left: 179px;
@@ -284,34 +270,40 @@ h6 {
 
 .ct5 .p1 {
     /* position: absolute; */
-    font-size: min(8vw,80px);
+    font-size: min(8vw, 80px);
     white-space: nowrap;
-    top: 100px;
-    left: 131px;
+    /* top: 30px; */
+    /* left: 131px; */
+    /* margin-top: -50px; */
+    margin-right: min(2vw, 40px);
+    margin-bottom: min(1vw, 25px);
 }
 .ct5 .p2 {
     /* position: absolute; */
-    font-size: 4vw;
-    top: 228px;
-    left: 895px;
+    font-size: min(3vw, 50px);
+    /* top: 228px;
+    left: 895px; */
+    margin-top: 110px;
 }
 .ct5 .p3 {
-    font-size: min(2vw,30px);
+    font-size: min(1.5vw, 25px);
     /* position: absolute; */
-    top: 345px;
-    left: 898px;
+    /* top: 345px;
+    left: 898px; */
     justify-content: center;
+    margin-top: min(1vw, 25px);
 }
 
 .seed {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 206px;
-    width: 1448px;
+    width: 3000px;
 }
 
-.seedWrap{
+.seedWrap {
     width: 100%;
-    overflow: hidden;
+    top: -100px;
+    /* overflow: hidden; */
 }
 .seed {
     position: relative;
@@ -323,7 +315,7 @@ h6 {
 .seed > .sed {
     height: 150px;
     width: 150px;
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 .seed .sd1 {
@@ -348,26 +340,52 @@ h6 {
     background: url(../img/Starfruit_Seeds.png) no-repeat center/cover;
 }
 .seed .sd8 {
-    background: url(../img/Garlic_Seeds.png) no-repeat center/cover;
+    background: url(../img/Rare_Seed.png) no-repeat center/cover;
 }
-
+.seed .sd9 {
+    background: url(../img/Radish_Seeds.png) no-repeat center/cover;
+}
+.seed .sd10 {
+    background: url(../img/Cranberry_Seeds.png) no-repeat center/cover;
+}
+.seed .sd11 {
+    background: url(../img/Red_Cabbage_Seeds.png) no-repeat center/cover;
+}
+.seed .sd12 {
+    background: url(../img/Grape_Starter.png) no-repeat center/cover;
+}
 
 /****************** 메인영역3- 광산 ******************/
-.grd2{
-    background: linear-gradient( #ffe8ad, #000000);
+.grd2 {
+    background: linear-gradient(#ffe8ad, #000000);
     height: 900px;
 }
-.ct7{
+.ct7 {
     background: #000;
 }
 
+.ct7 .ghost{
+    background: url(../img/Ghost_Anim.gif) no-repeat center/cover;
+    width: 120px;
+    height: 180px;
+}
+.ct7 .bat{
+    background: url(../img/24px-Iridium_Bat.png) no-repeat center/cover;
+    width: 50px;
+    height: 50px;
+}
+.ct7 .monster{
+    background: url(../img/Shadow_Brute_Dangerous_Anim.gif) no-repeat center/cover;
+    width: 120px;
+    height: 180px;
+}
 
 /********************* 하단영역 *************************/
-.grd4{
-    background: linear-gradient( #ffe8ad, #baedff);
+.grd4 {
+    background: linear-gradient(#ffe8ad, #baedff);
     height: 900px;
 }
 
-.info{
-    background:#baedff ;
+.info {
+    background: #baedff;
 }
