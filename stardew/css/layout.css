@@ -24,6 +24,11 @@ h6 {
     line-height: 100vh;
 }
 
+[class*="col-"]{
+    box-sizing: border-box;
+    padding: min(30px,2vw);
+}
+
 .col-1 {
     width: 8.33%;
 }
@@ -78,21 +83,34 @@ h6 {
     min-height: 100vh;
 }
 
+.page{
+    height: 100vh;
+    overflow: hidden;
+}
+
 /************** 상단영역 메뉴 **************/
+#top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
 .top {
     height: 50px;
     background-color: rgb(29, 64, 128);
 }
-
+.mbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .mtxt {
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
     font: 18px bold;
     line-height: 50px;
-    margin: 0 -250px 0 400px;
     text-align: center;
-    /* margin-left: 400px;
-  margin-right: -300px; */
 }
 
 .mtxt li a {
@@ -106,7 +124,9 @@ h6 {
     overflow: hidden;
     display: block;
 }
-
+.icon{
+    display: flex;
+}
 .icon a {
     width: 35px;
     height: 35px;
@@ -228,6 +248,10 @@ h6 {
 }
 
 /* 배경색 */
+.cbx1{
+    position: relative;
+    /* 부모자격 */
+}
 .ct5 {
     position: relative;
     background-color: #ffe8ad;
@@ -237,21 +261,21 @@ h6 {
     width: 50px;
     height: 47px;
     background: url(/stardew/img/duck.png) no-repeat center/cover;
-    top: 155px;
-    left: 757px;
+    top: 64px;
+    right: 48px;
 }
 .ct5 .cow {
     position: absolute;
     width: 135px;
     height: 104px;
     background: url(/stardew/img/cow.png) no-repeat center/cover;
-    top: 483px;
-    left: 1474px;
+    bottom: 254px;
+    right: 98px;
     z-index: 999;
 }
 .ct5 .farm {
-    position: absolute;
-    width: 690px;
+    /* position: absolute; */
+    width: 100%;
     height: 382px;
     background: url(/stardew/img/farm1.jpg) no-repeat center/cover;
     top: 222px;
@@ -259,71 +283,71 @@ h6 {
 }
 
 .ct5 .p1 {
-    position: absolute;
-    font-size: 80px;
+    /* position: absolute; */
+    font-size: min(8vw,80px);
+    white-space: nowrap;
     top: 100px;
     left: 131px;
 }
 .ct5 .p2 {
-    position: absolute;
-    font-size: 30px;
+    /* position: absolute; */
+    font-size: 4vw;
     top: 228px;
     left: 895px;
 }
 .ct5 .p3 {
-    font-size: 20px;
-    position: absolute;
+    font-size: min(2vw,30px);
+    /* position: absolute; */
     top: 345px;
     left: 898px;
     justify-content: center;
 }
 
 .seed {
-    position: absolute;
     background-color: aquamarine;
     height: 206px;
     width: 1448px;
-    top: 670px;
-    left: 177px;
-    position: relative;
 }
 
+.seedWrap{
+    width: 100%;
+    overflow: hidden;
+}
+.seed {
+    position: relative;
+    left: 0;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
 .seed > .sed {
     height: 150px;
     width: 150px;
-    top: 10%;
-
-}
-
-.seed {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    margin: 0 15px;
 }
 
 .seed .sd1 {
     background: url(../img/Blueberry_Seeds.png) no-repeat center/cover;
 }
-.cbx1 .seed .sd2 {
+.seed .sd2 {
     background: url(../img/Corn_Seeds.png) no-repeat center/cover;
 }
-.cbx1 .seed .sd3 {
+.seed .sd3 {
     background: url(../img/Cauliflower_Seeds.png) no-repeat center/cover;
 }
-.cbx1 .seed .sd4 {
+.seed .sd4 {
     background: url(../img/Melon_Seeds.png) no-repeat center/cover;
 }
-.cbx1 .seed .sd5 {
+.seed .sd5 {
     background: url(../img/Parsnip_Seeds.png) no-repeat center/cover;
 }
-.cbx1 .seed .sd6 {
+.seed .sd6 {
     background: url(../img/Pumpkin_Seeds.png) no-repeat center/cover;
 }
-.cbx1 .seed .sd7 {
+.seed .sd7 {
     background: url(../img/Starfruit_Seeds.png) no-repeat center/cover;
 }
-.cbx1 .seed .sd8 {
+.seed .sd8 {
     background: url(../img/Garlic_Seeds.png) no-repeat center/cover;
 }
 

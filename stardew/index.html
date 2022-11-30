@@ -17,54 +17,59 @@
         font-family: 'Jua', sans-serif;
         
         -->
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/autoScroll.js"></script>
     </head>
 
     <body>
-        <div>
+        <div id="top">
             <header class="ibx top">
                 <!-- <h1>메뉴바</h1> -->
-                <ul class="mtxt">
-                    <li><a class="tma" href="#">HOME</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">FORUMS</a></li>
-                    <li><a href="#">WIKI</a></li>
-                    <li><a href="#">MEDIA</a></li>
-                    <li><a href="#">MERCH</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">TABLETOP</a></li>
-                </ul>
-                <ul class="ibx icon">
-                    <li>
-                        <a href="#" class="fa-brands fa-twitter">
-                            <span class="ialt" alt="Twitter"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="fa-brands fa-facebook-f">
-                            <span class="ialt" alt="Facebook"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="fa-brands fa-reddit">
-                            <span class="ialt" alt="Reddit"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="fa-solid fa-envelope">
-                            <span class="ialt">Contact</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="fa-brands fa-discord">
-                            <span class="ialt">Discord</span>
-                        </a>
-                    </li>
-                </ul>
+                <div class="mbar">
+                    <ul class="mtxt">
+                        <li><a class="tma" href="#">HOME</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">FORUMS</a></li>
+                        <li><a href="#">WIKI</a></li>
+                        <li><a href="#">MEDIA</a></li>
+                        <li><a href="#">MERCH</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">TABLETOP</a></li>
+                    </ul>
+                    <ul class="icon">
+                        <li>
+                            <a href="#" class="fa-brands fa-twitter">
+                                <span class="ialt" alt="Twitter"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa-brands fa-facebook-f">
+                                <span class="ialt" alt="Facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa-brands fa-reddit">
+                                <span class="ialt" alt="Reddit"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa-solid fa-envelope">
+                                <span class="ialt">Contact</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa-brands fa-discord">
+                                <span class="ialt">Discord</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </header>
         </div>
         <div>
-            <section class="ct1 ibx cont">
+            <section class="ct1 ibx cont page">
                 <!-- <h2>메인화면</h2> -->
                 <div class="cbx col-12"></div>
                 <div class="cbx col-12"></div>
@@ -72,7 +77,7 @@
             </section>
         </div>
         <div>
-            <section class="ct2 ibx cont">
+            <section class="ct2 ibx cont page">
                 <!-- <h2>스토리영역</h2> -->
                 <div class="cbx1 col-12"></div>
                 <!-- <div class="cbx2 col-12"></div> -->
@@ -97,11 +102,17 @@
         </div>
         <section class="ibx grd1"></section>
         <div>
-            <section class="ct5 ibx cont">
+            <section class="ct5 ibx cont page">
                 <!-- <h2>농사</h2> -->
-                <div class="cbx1 col-6">
-                    <div class="txt p1">꿈의 농장 만들기</div>
+                <div class="cbx1 col-7">
+                    <div class="txt p1">
+                        꿈의 농장 만들기
                     <div class="duck"></div>
+                </div>
+                    <div class="farm"></div>
+                </div>
+                
+                <div class="cbx1 col-5">
                     <div class="txt p2">
                         무성한 들판을 활기차고 풍요로운 농장으로 바꾸세요!
                     </div>
@@ -113,7 +124,9 @@
                         마요네즈와 치즈를 만들어 더 많은 수익을 올려보세요!
                     </div>
                     <div class="cow"></div>
-                    <div class="farm"></div>
+                </div>
+
+                <div class="seedWrap">
                     <div class="seed Ani">
                         <div class="sed sd1"></div>
                         <div class="sed sd2"></div>
@@ -136,7 +149,7 @@
         </div>-->
         <section class="ibx grd2"></section>
         <div>
-            <section class="ct7 ibx cont">
+            <section class="ct7 ibx cont page">
                 <h2>광산</h2>
                 <div class="cbx col-12">
                     
@@ -152,14 +165,16 @@
                 <div class="cbx col-7"></div>
             </section>
         </div>-->
-        <section class="ibx grd4"></section>
+        <section class="ibx grd4 page"></section>
           <!-- <div>
             <section class="ct9 ibx cont">
               <h2>사용자정의/다운로드</h2> 
                 <div class="cbx col-12"></div>
                 <div class="cbx col-12"></div>
             </section>-->
-            <footer class="ibx info">
+        </div>
+        <div>
+            <footer class="ibx info page">
                 <!-- <h2>회사</h2> -->
              
             </footer>
