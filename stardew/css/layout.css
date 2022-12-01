@@ -201,29 +201,38 @@ h6 {
     color: #fff;
     position: absolute;
     top: 578px;
-    left: 1066px;
     font-size: 25px;
     text-shadow: 2px 2px 8px #000;
-    left: 181px;
+    left: 18vw;
 }
 .cbx2 .sxt2 {
     color: #fff;
     position: absolute;
     top: 693px;
-    left: 1249px;
+    left: 8vw;
     width: 299px;
     font-size: 22px;
     text-shadow: 2px 2px 8px #000;
 }
-.cbx2 .sxt3 {
+.sxt3 {
     background: url(../img/letter.PNG) no-repeat center/cover;
     position: absolute;
     width: 121px;
     height: 59px;
     top: 441px;
-    right: 885px;
+    right: 51vw;
 }
 
+
+.sxt3:active {
+    background: rgb(243, 242, 235);
+    height: 441px;
+    width: 693px;
+    right: 11vw;
+    top: 195px;
+    border-radius: 2%;
+    
+}
 
 /****************** 메인영역2-농사 ******************/
 
@@ -358,34 +367,114 @@ h6 {
 /****************** 메인영역3- 광산 ******************/
 .grd2 {
     background: linear-gradient(#ffe8ad, #000000);
-    height: 500px;
+    height: 1050px;
 }
 .ct7 {
     background: #000;
 }
 
-.ct7 .ghost{
-    background: url(../img/Ghost_Anim.gif) no-repeat center/cover;
-    width: 120px;
-    height: 180px;
+.ct7 .cbx1{
+    position: relative;
 }
-.ct7 .bat{
-    background: url(../img/24px-Iridium_Bat.png) no-repeat center/cover;
-    width: 50px;
-    height: 50px;
-}
-.ct7 .monster{
-    background: url(../img/Shadow_Brute_Dangerous_Anim.gif) no-repeat center/cover;
-    width: 120px;
-    height: 180px;
+.ct7 .cbx2{
+    position: relative;
 }
 
-/********************* 하단영역 *************************/
+.ct7 .ghost {
+    position: absolute;
+    background: url(../img/Ghost_Anim.gif) no-repeat center/cover;
+    width: 8vw;
+    height: 12vw;
+    left: 8vw;
+    z-index: 999;
+}
+.ct7 .squid {
+    position: absolute;
+    background: url(../img/Squid_Kid_Anim.gif) no-repeat center/cover;
+    width: 5vw;
+    height: 5vw;
+    right: 2.5vw;
+    top: 141px;
+}
+.ct7 .monster {
+    position: absolute;
+    background: url(../img/Shadow_Brute_Dangerous_Anim.gif) no-repeat
+        center/cover;
+    width: 100px;
+    height: 150px;
+}
+
+.ct7 .slime {
+    position: absolute;
+    background: url(../img/Green_Slime_Anim.gif) no-repeat center/cover;
+    width: 5vw;
+    height: 5vw;
+    bottom: 77px;
+    left: 6vw;
+}
+
+.ct7 .img1 {
+    position: absolute;
+    background: url(../img/Dungeon2.jpg) no-repeat center/cover;
+    width: 33vw;
+    height: 25vw;
+    top: 18vw;
+    left: 13vw;
+}
+.ct7 .img2 {
+    position: absolute;
+    background: url(../img/Dungeon3.png) no-repeat center/cover;
+    width: 100px;
+    height: 80px;
+}
+.ct7 .img3 {
+    position: absolute;
+    background: url(../img/Dungeon1.jpg) no-repeat center/cover;
+    width: 80px;
+    height: 100px;
+}
+
+.ct7 .p1 {
+    position: absolute;
+    color: #ccc;
+    font-size: min(5vw, 50px);
+    left: -4vw;
+    top: 162px;
+}
+.ct7 .p2 {
+    position: absolute;
+    color: #ccc;
+    font-size: min(3vw, 20px);
+    top: 227px;
+    right: 9vw;
+}
+
+.ct7 .p3 {
+    position: absolute;
+    color: #ccc;
+    font-size: min(3vw, 20px);
+    bottom: 127px;
+    left: 11vw;
+}
+
+.ct7 .p4 {
+    position: absolute;
+    color: #ccc;
+    font-size: min(3vw, 24px);
+    top: 300px;
+    margin-right: min(2vw,4vw);
+}
+
+/********************* 사용자정의 *************************/
 .grd4 {
-    background: linear-gradient(#ffe8ad, #baedff);
+    background: linear-gradient(#000, #baedff);
     height: 900px;
 }
 
+.ct9 {
+    background: #baedff;
+}
+/********************* 하단영역 *************************/
 .info {
     background: #baedff;
 }
