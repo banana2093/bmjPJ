@@ -23,9 +23,32 @@ $(()=>{
     moveSeed();
     ////////////////////////////////////////////////////////////////////////
 
+    // 메인 구름 무한이동
+    // 이동대상: .cloud
+    let cloud = $(".cloud");
 
+    function mvCloud(){
+        cloud
+        .animate({left:"100%"},35000,"linear",function(){
+            $(this).css({left:"-20%"})
+            .animate({left:"30%"},34000,"linear",mvCloud)
+            // 끝난후에 mvCloud함수를 다시 재귀호출함!
+        })
 
+    }
 
+    mvCloud();
+    
 
+    // function moveCloude(){
+    //     cloud.css("right","-=1px");
 
+    //     setTimeout(moveCloude,3000);
+    //     let mvright = parseInt(cloud.css("right"));
+    //     // console.log(mvright);
+    //     if(mvright===-1000){
+    //         cloud.css({right:"200"});
+    //     }
+    // }//////// moveCloude ////////////
+    // moveCloude();
 });
