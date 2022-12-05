@@ -162,24 +162,26 @@ h6 {
     background: url("https://stardewvalley.net/wp-content/uploads/2017/12/stardewbackground.png")
         no-repeat center/cover;
     position: relative;
+    width: 100vw;
 }
 
 .ct1 .mlogo {
     background: url(../img/Main_Logo.png) no-repeat center/cover;
-    height: 14vw;
-    width: 31vw;
+    height: 230px;
+    width: 500px;
     z-index: 9999;
     position: absolute;
-    top: 8vw;
-    right: 37vw;
+    top: 16%;
+    left: 50%;
+    transform: translateX(-63%);
 }
 
 .ct1 .mhouse {
     position: absolute;
     background: url(https://stardewvalley.net/wp-content/uploads/2017/12/sdv_divider.png)
         no-repeat center/cover;
-    height: 25vw;
-    width: 100vw;
+    height: 460px;
+    width: 100%;
     bottom: 0;
     left: 0;
     z-index: 88;
@@ -189,52 +191,31 @@ h6 {
     position: absolute;
     background: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax10.png")
         no-repeat center/cover;
+    height: 580px;
+    width: 150px;
+    bottom: 215px;
+    right: 0;
+    z-index: 73;
 }
 
 .ct1 .ltree {
     position: absolute;
     background: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax9.png")
         no-repeat center/cover;
-}
-
-.ct1 .mhouse2 {
-    position: absolute;
-    background: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax8.png")
-        no-repeat center/cover;
-    height: 54vw;
-    width: 100vw;
-    bottom: 170px;
+    height: 580px;
+    width: 150px;
+    bottom: 215px;
     left: 0;
     z-index: 73;
 }
 
-.ct1 .mhouse3 {
-    position: absolute;
-    background: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax7.png")
-        no-repeat center/cover;
-    height: 54vw;
-    width: 100vw;
-    bottom: 145px;
-    left: 0;
-    z-index: 72;
-}
 .ct1 .mhouse4 {
-    position: absolute;
-    background: url("https://www.stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax6.png")
-        no-repeat center/cover;
-    height: 54vw;
-    width: 100vw;
-    bottom: 100px;
-    left: 0;
-    z-index: 71;
-}
-.ct1 .mhouse5 {
     position: absolute;
     background: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax4.png")
         no-repeat center/cover;
-    height: 54vw;
+    height: 847px;
     width: 100vw;
-    bottom: 95px;
+    bottom: 130px;
     left: 0;
     z-index: 70;
 }
@@ -243,17 +224,23 @@ h6 {
     position: absolute;
     background: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax3b.png")
         no-repeat center/cover;
-        height: 48vw;
-        width: 81vw;
-        top: -3vw;
-        left: 30%;
-        opacity: 0.2;
-    }
+    height: 643px;
+    width: 1200px;
+    top: 60px;
+    left: 30%;
+    opacity: 0.2;
+}
 
 .ct1 .star {
     position: absolute;
     background: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax2.png")
         no-repeat center/cover;
+    height: 742px;
+    width: 61vw;
+    bottom: -4px;
+    left: 19vw;
+    z-index: 70;
+    opacity: 0;
 }
 
 .ibx .mtxt .tma {
@@ -267,11 +254,16 @@ h6 {
 .ct2 .cbx1 {
     background-color: black;
     height: 100vh;
-    color: #ccc;
     color: #fff;
-    padding: 50vh;
+    font-size: min(2.5vw, 25px);
     text-align: center;
-    font-size: 25px;
+}
+
+.ct2 .cbx1 p {
+    top: 432px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
 }
 
 .ct2 .cbx2 {
@@ -483,8 +475,10 @@ h6 {
     position: absolute;
     background: url(../img/Shadow_Brute_Dangerous_Anim.gif) no-repeat
         center/cover;
-    width: 100px;
-    height: 150px;
+    width: 146px;
+    height: 291px;
+    top: 274px;
+    right: 4vw;
 }
 
 .ct7 .slime {
@@ -501,20 +495,25 @@ h6 {
     background: url(../img/Dungeon2.jpg) no-repeat center/cover;
     width: 33vw;
     height: 25vw;
-    top: 18vw;
+    top: 180px;
     left: 13vw;
 }
 .ct7 .img2 {
     position: absolute;
     background: url(../img/Dungeon3.png) no-repeat center/cover;
-    width: 100px;
-    height: 80px;
+    width: 26vw;
+    height: 16vw;
+    bottom: 111px;
+    right: 5vw;
 }
+
 .ct7 .img3 {
     position: absolute;
     background: url(../img/Dungeon1.jpg) no-repeat center/cover;
-    width: 80px;
-    height: 100px;
+    top: 592px;
+    height: 16vw;
+    width: 16vw;
+    right: 34vw;
 }
 
 .ct7 .p1 {

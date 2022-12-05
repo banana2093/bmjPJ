@@ -40,15 +40,19 @@ $(()=>{
     mvCloud();
     
 
-    // function moveCloude(){
-    //     cloud.css("right","-=1px");
 
-    //     setTimeout(moveCloude,3000);
-    //     let mvright = parseInt(cloud.css("right"));
-    //     // console.log(mvright);
-    //     if(mvright===-1000){
-    //         cloud.css({right:"200"});
-    //     }
-    // }//////// moveCloude ////////////
-    // moveCloude();
+/////////////////////////////////////////////////////
+    // 메인 별 깜박임 무한반복
+
+    let star = $(".star");
+
+    function moveStar() {
+        star.animate({opacity:"1"},3500,function(){
+            $(this).css({opacity:"1"},3500,function(){
+                $(this).css({opacity:"0"},3500)
+            })
+            .animate({opacity:"0"},3500,moveStar)
+        })
+    }
+moveStar();
 });
