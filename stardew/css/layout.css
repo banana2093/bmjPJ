@@ -605,24 +605,46 @@ h6 {
     height: 195px;
     width: 1000px;
     position: relative;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
-    align-items: center;
+    /* align-items: center; */
+    overflow: hidden;
 }
-.glg > .st{
 
+.stss{
+    display: flex;
+    height: 195px;
+    width: 1000px;
     flex-shrink: 0;
-    margin: 0 40px;
+}
+
+.glg .sts{
+    position: relative;
+    height: 195px;
+    width: 3000px;
+    display: flex;
+    left: -1000px;
+}
+
+.glg .sts .st{
+    margin: 0 45px;
     height: 190px;
     width: 150px;
 }
 
-.glg:nth-child(4){
-    opacity: 0;
+
+.dwl .p1{
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
 }
+
+
+
+
 
 
 
