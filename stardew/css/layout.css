@@ -169,7 +169,7 @@ h6 {
     background: url(../img/Main_Logo.png) no-repeat center/cover;
     height: 230px;
     width: 500px;
-    z-index: 9999;
+    z-index: 999;
     position: absolute;
     top: 16%;
     left: 50%;
@@ -378,11 +378,6 @@ h6 {
     margin-top: min(1vw, 25px);
 }
 
-.seed {
-    /* background-color: aquamarine; */
-    height: 206px;
-    width: 3000px;
-}
 
 .seedWrap {
     width: 100%;
@@ -390,6 +385,8 @@ h6 {
     /* overflow: hidden; */
 }
 .seed {
+    height: 206px;
+    width: 3000px;
     position: relative;
     left: 0;
     display: flex;
@@ -495,7 +492,7 @@ h6 {
     background: url(../img/Dungeon2.jpg) no-repeat center/cover;
     width: 33vw;
     height: 25vw;
-    top: 180px;
+    top: 330px;
     left: 13vw;
 }
 .ct7 .img2 {
@@ -559,4 +556,102 @@ h6 {
 /********************* 하단영역 *************************/
 .info {
     background: #baedff;
+}
+
+/* 사용자 정의 */
+
+.ct9 .lk {
+    height: 300px;
+    position: relative;
+}
+
+.ct9 .p1 {
+    position: absolute;
+    font-size: 2vw;
+}
+.ct9 .p2 {
+    position: absolute;
+    font-size: 1vw;
+}
+
+.ct9 .lk .btn {
+    position: absolute;
+    height: 4vw;
+    width: 16vw;
+    background-color: #ff9730;
+    border-radius: 3vw;
+}
+
+.ct9 .lk .btn a {
+    color: #000;
+    font-size: 2vw;
+}
+
+.ct9 .dwl {
+    position: relative;
+    border-top: 1px solid #000;
+    height: 700px;
+}
+
+/* *************************************************** */
+
+.ct9 .mod {
+    width: 100%;
+    top: -100px;
+    /* overflow: hidden; */
+    
+}
+.ct9 .glg {
+    height: 195px;
+    width: 1000px;
+    position: relative;
+    background-color: blueviolet;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+.glg > .st{
+
+    flex-shrink: 0;
+    margin: 0 40px;
+    height: 190px;
+    width: 150px;
+}
+
+.glg:nth-child(4){
+    opacity: 0;
+}
+
+
+
+
+
+.ct9 .glg .l1 {
+    background: url(../img/steam_logo.png) no-repeat center/cover;
+}
+.ct9 .glg .l2 {
+    background: url(../img/HUMBLESTORE_logo.png)no-repeat center/cover;
+
+}
+.ct9 .glg .l3 {
+    background: url(../img/GOG_logo.png) no-repeat center/cover;
+
+}
+.ct9 .glg .l4 {
+    background: url(../img/XBOXOne_logo.png) no-repeat center/cover;
+
+}
+.ct9 .glg .l5 {
+    background: url(../img/PS4_logo.png) no-repeat center/cover;
+}
+.ct9 .glg .l6 {
+    background: url(../img/NintendoSwitch_logo.png) no-repeat center/cover;
+}
+.ct9 .glg .l7 {
+    background: url(../img/iOS_logo.png) no-repeat center/cover;
+}
+.ct9 .glg .l8 {
+    background: url(../img/android_logo.png) no-repeat center/cover;
 }
